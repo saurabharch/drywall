@@ -3,7 +3,9 @@
   "version": "0.18.1",
   "private": true,
   "scripts": {
-    "start": "grunt"
+    "start": "grunt",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
   "license": "MIT",
@@ -35,7 +37,8 @@
     "passport-tumblr": "0.1.x",
     "passport-twitter": "1.x.x",
     "serve-static": "1.10.x",
-    "underscore": "1.x.x"
+    "underscore": "1.x.x",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "backbone": "1.x.x",
@@ -57,5 +60,6 @@
     "jquery.cookie": "1.x.x",
     "moment": "2.13.x",
     "respond.js": "1.x.x"
-  }
+  },
+  "snyk": true
 }
