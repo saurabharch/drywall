@@ -11,7 +11,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "async": "1.x.x",
+    "async": "3.2.2",
     "bcrypt": "0.8.x",
     "body-parser": "1.x.x",
     "compression": "1.x.x",
@@ -24,7 +24,7 @@
     "helmet": "2.x.x",
     "jade": "1.x.x",
     "method-override": "2.x.x",
-    "mongoose": "4.x.x",
+    "mongoose": "5.7.3",
     "morgan": "1.x.x",
     "passport": "0.3.x",
     "passport-facebook": "2.x.x",
